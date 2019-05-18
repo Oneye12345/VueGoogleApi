@@ -8,30 +8,6 @@
     <title>CS4220 Final</title>
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h4 class="display-4">
-                My Location
-            </h4>
-            <p class="lead">Enter your latitude and longitude to display your location on a Google Map</p>
-            <hr>
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <input v-model = "latInput" type="text" name="lat" id="lat" placeholder="Latitude" class="form-control">
-                    </div>
-                    <div class="col">
-                        <input v-model = "lonInput" type="text" name="lon" id="lon" placeholder="Longitude" class="form-control">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="submit" value="Show My Location" class="btn btn-primary mt-4" >
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
     <div id="app"></div>
     <script src="/dist/build.js"></script>
 </body>

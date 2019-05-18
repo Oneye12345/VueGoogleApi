@@ -5,6 +5,7 @@
 </template>
 
 <script>
+//console.log("App called");
 import myMap from './components/my-map.vue'
 export default {
   name: 'app',
